@@ -5,7 +5,7 @@ A small, header only, C11, SQLite replacement that lets will define your structu
 ## Features
 
 - Type safe, you can create the database entities that will be used for the operations.
-- Indexes not directories: besides the directory like database structure, each entity that has children store the pointers to then in hash table structure instead of lists, that is what is commonly used in file systems.
+- Indexes not directories: besides the directory like database structure, each entity that has children store the pointers to then in a hash table structure instead of lists.
 - No AI used.
 
 ## Usage example
